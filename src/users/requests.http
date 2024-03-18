@@ -1,4 +1,14 @@
+### Sign up a user
 POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+    "email": "asd4@asd.com",
+    "password": "asdfasdf"
+}
+
+### Sign in a user
+POST http://localhost:3000/auth/signin
 content-type: application/json
 
 {
