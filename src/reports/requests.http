@@ -1,0 +1,13 @@
+### create a new report
+POST http://localhost:3000/reports
+content-type: application/json
+
+{
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2015,
+    "mileage": 10000,
+    "lng": -122.084,
+    "lat": 37.422,
+    "price": 30000
+}
