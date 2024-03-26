@@ -5,9 +5,17 @@ content-type: application/json
 {
     "make": "Toyota",
     "model": "Corolla",
-    "year": 2013,
+    "year": 2020,
     "mileage": 10000,
     "lng": -122.084,
     "lat": 37.422,
     "price": 30000
+}
+
+### approve a report
+PATCH http://localhost:3000/reports/5
+content-type: application/json
+
+{
+    "approved": true
 }
